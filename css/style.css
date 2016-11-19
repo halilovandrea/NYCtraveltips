@@ -1,33 +1,291 @@
-h1 {  background-color: #424C55;
-      color:#FFFFFF ;
-       font-family: 'Raleway', sans-serif ;
-    
-}
-body {
-    background-color: #424C55;
+html {
+    background-color: #F3F9D2;
 }
 
-div div 
-{ 
-    background-color: #424C55;
-    color: #50E3C2;
-    
-}
-li {
-    float: right;
-    display: block;
-     font-family: 'Raleway', sans-serif ;
-     padding: 8px;
-     margin: 2px;
-     border-color:#424C55; 
-    
+
+.carouselNYC{
+    width: 80%;
+    margin: auto;
+     background-color: #F3F9D2;
 }
 
-ul {
-    list-style-type: none;
+div h1 {
+   font-family: 'Gloria Hallelujah', cursive;
+   color: #93827F;
+   text-align: center;
+ }
+ 
+
+
+div 
+{ background-color: #F3F9D2;
+    color: #92B4A7;
+    }
+    
+ div >div {
+         background-color: #F3F9D2;
+}
+    
+    
+a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #93827F;
 }
 #cover
 {
   width:100%; 
   height: 500px;
 }
+/* navbaronhome */
+.box {
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+    margin: 2%;
+    font-family: 'Raleway', sans-serif;
+    color: #69585F;
+}
+.pbox{
+       color: #69585F;
+}
+
+.circle {
+    width: 100%;
+     border-radius: 50%;
+     text-align: center;
+    }
+
+.circle:hover{
+    border: 5px solid #69585F;
+    
+}
+
+.footer {
+    background-color: #69585F;
+    width: 100%;
+    height: 90px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    }
+    p{
+        color: #F3F9D2 ;
+    }
+    
+.Logo {
+   position: relative;
+  padding-top: 5px;
+    width: 150px;
+   }
+
+/* about me page */
+
+   .myButton{
+       background-color: #E2B1B1;
+   } 
+   
+   .divmybuttom{
+        width: 793px;
+       background-color: #E2B1B1;
+       color: #93827F;
+       margin: auto;
+   }
+ .imagennight{
+    float: right;
+    width: 40%;
+    height: 500px;
+    position: relative;
+}
+
+.Tips {
+    width: 150px;
+    height: 150px;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    background-color: #69585F;
+    color:#92B4A7;
+    
+}
+
+  div> div > p{
+     text-align: center;
+    color:#F3F9D2;
+    font-family: 'Raleway', sans-serif;
+     padding-left: 5px;
+     padding-right: 5px;
+     }
+   
+  div> div> div> p {
+       text-align: center;
+    font-family: 'Raleway', sans-serif;
+     padding-left: 5px;
+     padding-right: 5px;
+     color:#93827F;
+  }
+   
+.Tips:hover {
+    width: 60%;
+}
+
+
+
+.box {
+     font-family: 'Raleway', sans-serif;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+h4 {
+   color:  #7B9E96;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 10px;
+}
+.imagetip1 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: left;
+}
+
+/* saving money page */
+
+.blockgrande {
+    width: 793px;
+    height: 170px;
+    background-color: black;
+    margin: auto;
+    }
+     
+     .block1 {
+     background-color:#93827F;
+  animation-name: colors;
+    animation-duration: 30s;
+  
+         }
+     
+         .block3 {
+    width: 200px;
+    height: 200px;
+  background-color:#93827F;
+  animation-name: colors;
+    animation-duration: 30s;
+             }
+         
+     .block1 , .block2, .block3 , .block4 ,.block5 , .block6, .block7 , .block8 {
+          display: inline-block;
+    width: 200px;
+    height: 200px;
+  vertical-align: bottom;
+    margin: -2px -4px -6px -3px;
+    }
+     
+          .block6 {
+     background-color:#93827F;
+  animation-name: colors;
+    animation-duration: 30s;
+          }
+         @keyframes colors {
+    0%   {background-color: #69585F;}
+    25%  {background-color: #E2B1B1;}
+    50%  {background-color: #92B4A7;}
+    100% {background-color: #2F2F2F;}
+         }
+         
+          
+           .block8 {
+ 
+    background-color:#93827F;
+  animation-name: colors;
+    animation-duration: 30s;
+          }
+          
+    .fototaxi{
+     width:200px;
+     height: 200px;
+       vertical-align: bottom;
+       
+        }
+        
+        .cityfoto{
+    width: 793px;
+    height: 170px;
+    margin: auto;
+            }
+    .positiontext{
+  text-align:center; 
+  vertical-align: middle;
+  display: table-cell;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Raleway', sans-serif;
+            }
+     
+    
+/* places to see page */
+.divsize{
+    width: 100%;
+    background-color: #E2B1B1;
+}
+.quote {
+ font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 10px 10px 5px;
+    font-size: 20px;
+    height: 120px;
+    width: 100%;
+    background-color: #93827F;
+    margin: 0px;
+   }
+    
+   .footerpage {
+       background-color: #93827F;
+       width: 793px;
+       height: 100px;
+       margin: auto;
+  }
+  /* back buttom */
+.divmybuttom {
+    width: 100%;
+    padding: 5px 5px 10px 5px;
+}
+.savdivmybuttom{ width:793px;
+background-color: #E2B1B1;
+       color: #93827F;
+       margin: auto;
+    }
+.pic{ width: 50%;
+vertical-align: bottom;
+    
+}
+
+.enjoy{
+    position: absolute;
+    top:40%;
+    padding: 5px;
+    left: 50%;
+    color: #93827F;
+    margin: auto;
+    width: 50%;
+     font-family: 'Raleway', sans-serif;
+
+    }
+
+ul { background-color: #E2B1B1;
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+   
+   .footerpageplace {
+       margin: auto;
+  }
+
+ 
+ a.citypass:hover , a.citypass:active {
+     background-color:#E2B1B1; 
+ }
+          
